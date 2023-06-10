@@ -53,7 +53,7 @@ public class OrquestadorApplicationTests {
         
     }
 
-    /*@Test
+    @Test
     public void testCallBackupAlgorithm_SuccessfulCall() {
         // Mocking the response from the backup algorithm endpoint
         Collection<Game> mockResponse = new ArrayList<>();
@@ -293,7 +293,7 @@ public class OrquestadorApplicationTests {
         assertEquals(expectedResponse, response.get("ORDENACION SELECCION"));
         assertEquals(expectedResponse, response.get("CLASSIC SORT"));
         assertEquals(expectedResponse, response.get("MERGE SORT"));
-    }*/
+    }
 
     @Test
     public void testConsensusVoting_EmptyCollection() {
